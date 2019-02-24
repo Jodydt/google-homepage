@@ -2,12 +2,12 @@
 <!DOCTYPE html>
 <html>
 <head>
- <link rel="stylesheet" href="README.css">
+ <link rel="stylesheet" href="../README.css">
     <div>
     <body>
-        <title>
+        <h2>
         google-homepage html/css project for The Odin Project
-        </title>
+        </h2>
             <div>
                 <title-list>
                     <ul>
@@ -17,7 +17,7 @@
                     <ul>
                 </title-list>
             </div>
-        <h2>I believe i should focus mostly on html and css structure, familiarizing myself with common/sensible formats, and building good habits.</h2>
+        <h3>I believe i should focus mostly on html and css structure, familiarizing myself with common/sensible formats, and building good habits.</h3>
     </body>
     </div>
 </head>
