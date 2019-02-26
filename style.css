@@ -13,47 +13,16 @@
     margin-top: 30px;
     box-shadow: -.25px 1px lightgrey;
 }
-#searchbutton {
+#searchbuttons {
+    text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+}
+button {
     margin-top: 60px;
     height: 30px;
     color: rgb(133, 133, 133);
     background-color: rgb(233, 233, 233);
     border-radius: 2px;
     border: 0px;
-}
-h1 {
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    text-emphasis: none;
-}
-h2 {
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    text-emphasis: none;
-}
-#header {
-    font-family: Arial, sans-serif;
-    font-size: 13px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    color: black;
-    background-color: none;
-}
-li {
-    display: inline-block;
-}
-li a {
-    display: block;
-    color: rgb(116, 116, 116);
-    text-align: center;
-    padding: ;
-    text-decoration: none;
-}
-li a:hover {
-    background-color: none;
-    text-decoration: underline;
+    padding: 5px;
 }
