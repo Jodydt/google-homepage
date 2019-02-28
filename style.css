@@ -6,6 +6,7 @@
     margin-right: auto;
     margin-top: 200px;
 }
+
 #searchbar {
     display: block;
     margin-left: auto;
@@ -13,10 +14,12 @@
     margin-top: 30px;
     box-shadow: -.25px 1px lightgrey;
 }
+
 #searchbuttons {
     text-align: center;
     display: block;
 }
+
 button {
     margin-top: 60px;
     height: 30px;
@@ -25,4 +28,60 @@ button {
     border-radius: 2px;
     border: 0px;
     padding: 5px;
+}
+
+li {
+    Display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    list-style: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#tnav li a {
+    margin: 0px;
+    padding: 10px;
+
+}
+
+#trnav {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+#bnav {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    position: absolute;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+}
+
+#bnav li a {
+    margin: 15px;
+    padding: 0;
+}
+
+#bnavparent {
+    text-decoration: none;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+#brnav {
+    float: right;
+    margin: 0;
+    padding: 0;
 }

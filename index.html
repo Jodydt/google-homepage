@@ -9,17 +9,17 @@
   </div>
     <body>
       <!--add top header "tnav" here-->
-      <div id="tnav">
-        <div>
-          <a href="#" class="nav">About</a>
-          <a href="#" class="nav">Store</a>
-        </div>
-        <div id="trnav">
-          <a href="#" class="nav">Gmail</a>
-          <a href="#" class="nav">Images</a>
-          <a href="#" class="nav" id="menu">Menu</a>
-          <a href="#" class="nav" id="signin">Sign In</a>
-        </div>
+      <nav>
+        <ul id="tnav">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Store</a></li>
+          <div id="trnav">
+            <li><a href="#">Gmail</a></li>  
+            <li><a href="#">Images</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Sign In</a></li>
+          </nav>  
+        </ul>
       </div>
         <div>
           <img id="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
@@ -31,16 +31,16 @@
           <button><b>I'm Feeling Lucky</b></button>
         </div>
        <!--add footer "bnav" here-->
-        <div id='bnav'>
-          <div id="lbnav">
-            <a href="#" class="nav">Advertising</a>
-            <a href="#" class="nav">Business</a>
-          </div>
-          <div id="rbnav">
-            <a href="#" class="nav">Privacy</a>
-            <a href="#" class="nav">Terms</a>
-            <a href="#" class="nav">Settings</a>
-          </div>
+        <nav id="bnavparent">
+          <ul id="bnav">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <div id="brnav"> 
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Settings</a></li>
+            </nav>  
+          </ul>
         </div>
     </body>
 </html>
